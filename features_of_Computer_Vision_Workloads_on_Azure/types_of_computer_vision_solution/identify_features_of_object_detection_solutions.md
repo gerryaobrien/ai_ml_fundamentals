@@ -85,9 +85,9 @@ It's also important to be aware of some limitations on the Detect API to ensure 
 
 Object detection is actually a feature and is part of the Analyze Image API within Azure Computer Vision.  Essentially, you are calling the analyze image API and telling it you want Objects, as the visualFeatures parameter.  You will form the REST API request in the form of a URL having the following format:
 
-https://{endpoint}/vision/v2.0/analyze?visualFeatures=Objects&language=en
+```https://{endpoint}/vision/v2.0/analyze?visualFeatures=Objects&language=en```
 
-You replace the {endpoint} portion with the URL endpoint for your Cognitive Services account. 
+You replace the {endpoint} portion with the URL endpoint for your Cognitive Services account.
 
 You also need to supply the service with an image through one of the supported methods:
 
